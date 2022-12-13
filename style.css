@@ -5,5 +5,43 @@
 }
 
 body{
-    /* background-color: black; */
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+
+}
+
+h2{
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+
+
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.videos iframe{
+    margin: 20px 0 20px 20px;
+    width: 280px;
+    height: 160px;
+    box-shadow: 7px 7px 10px gray, -7px -7px 15px red;
+    border-radius: 15px;
+
+}
+
+span{
+    color: red;
 }
