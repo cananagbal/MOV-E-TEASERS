@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color: black;
+    background: linear-gradient(217deg, rgba(0, 0, 0, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(255, 0, 0, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0, 0, 0, 0.8), rgba(0,0,255,0) 70.71%);
+
     color: white;
 }
 
@@ -37,8 +40,15 @@ h2{
     margin: 20px 0 20px 20px;
     width: 280px;
     height: 160px;
-    box-shadow: 7px 7px 10px gray, -7px -7px 15px red;
+    box-shadow: 7px 7px 10px red, -7px -7px 15px red;
     border-radius: 15px;
+
+}
+
+.videos iframe:hover{
+    transform: scale(0,97);
+    box-shadow: 7px 7px 10px gray, -7px -7px 15px gray;
+    transition: ease all 0,3s;
 
 }
 
